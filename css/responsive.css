@@ -1,0 +1,45 @@
+@media only screen and (max-width: 992px) {
+    .btn-area img{
+      width: 49%;
+    }
+    .header .navbar-nav .nav-item .nav-link{
+      font-size: 1.5rem;
+    }
+    .content .right-side h2{
+      font-size: 4.9rem;
+    }
+
+    .content {
+    padding-bottom: 11rem;
+}
+
+.footer .navbar-nav .nav-item {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+.footer .navbar-brand{
+  margin-left: -32px;
+}
+  }
+@media only screen and (max-width: 768px) {
+
+  .header .navbar-nav .nav-item .nav-link {
+    font-size: 2.5rem;
+    display: inline;
+}
+
+.header .navbar-nav{
+  background:#B5B5C8;
+  padding: 2rem;
+
+}
+
+
+
+}
+@media only screen and (max-width: 600px) {
+.footer .navbar-brand{
+  padding: 5rem;
+  margin-left: 0;
+}
+}

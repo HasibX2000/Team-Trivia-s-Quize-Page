@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: "Ubuntu", sans-serif; }
+
+#more-wrap {
+  background: url("../images/bg.png") center bottom;
+  background-size:cover;
+  min-height:1280px;
+   }
+
+.header {
+  padding-bottom: 2rem; }
+  .header a.navbar-brand {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .header .navbar-nav .nav-item {
+    margin-right: 3rem; }
+    .header .navbar-nav .nav-item .nav-link {
+      color: #ee3b33;
+      font-size: 1.8rem;
+      font-weight: 700;
+      transition: 0.3s; }
+    .header .navbar-nav .nav-item .active {
+      color: #353854; }
+  .header .navbar-nav .nav-item:hover .nav-link {
+    color: #353854; }
+  .header .social-media .nav-item .nav-link i {
+    color: #fff;
+    transition: 0.3s; }
+  .header .social-media .nav-item:hover .nav-link i {
+    color: #353854; }
+
+.content {
+	padding-top:19rem;
+	
+  padding-bottom: 19rem;
+  }
+  .content h3 {
+    font-size: 3.474rem;
+    margin: 3rem 1rem;
+    background: #fdb913;
+    border: none;
+    padding: 0.5rem 4rem;
+    transform: rotate(-5deg);
+    font-weight: 700;
+    color: #353854; }
+  .content p {
+    font-weight: 700;
+    font-size: 2.752rem;
+    margin-left: 1rem; }
+	
+	.content .right-side{
+		padding-top:10rem;
+	}
+  .content .right-side h2 {
+    font-size: 5.475rem;
+    color: #353854;
+    font-weight: 700; }
+  .content .right-side p {
+    font-size: 2.4rem;
+    line-height: 3.4rem; }
+  .content .right-side .btn-area {
+    margin-top: 7.5rem; }
+
+
+.footer .navbar-brand {
+  font-size: 2.78rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+.footer .navbar-nav {
+  display: inline; }
+  .footer .navbar-nav .nav-item {
+    display: inline-block;
+    margin-right: 3rem; }
+    .footer .navbar-nav .nav-item .nav-link {
+      font-size: 2.085rem;
+      color: #B5B5C8;
+      transition: 0.5s; }
+  .footer .navbar-nav .nav-item:hover {
+    display: inline-block;
+    margin-right: 3rem; }
+    .footer .navbar-nav .nav-item:hover .nav-link {
+      font-size: 2.085rem;
+      color: #ffffff; }
+.footer .social .nav-item {
+  margin-left: 1rem; }
+  .footer .social .nav-item .nav-link i {
+    color: #B5B5C8;
+    transition: 0.8s; }
+.footer .social .nav-item:hover .nav-link i {
+  color: #ffffff;
+  transform: rotate(360deg); }
+.footer .foot-text p {
+  color: #565b87;
+  font-size: 1.853rem; }
+
+/*# sourceMappingURL=style.css.map */

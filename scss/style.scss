@@ -1,0 +1,182 @@
+$color-red: #ee3b33;
+$color-grey: #353854;
+$color-yellow: #fdb913;
+$color-light: #B5B5C8;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 7px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#more-wrap {
+  background: url("../images/bg.png") center bottom;
+  background-attachment: fixed;
+}
+
+.header {
+  padding-bottom: 2rem;
+
+  a.navbar-brand {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin-right: 3rem;
+
+      .nav-link {
+        color: $color-red;
+        font-size: 1.8rem;
+        font-weight: 700;
+        transition: 0.3s;
+      }
+
+      .active {
+        color: $color-grey;
+      }
+    }
+
+    .nav-item:hover {
+      .nav-link {
+        color: $color-grey;
+      }
+    }
+  }
+
+  .social-media {
+    .nav-item {
+      .nav-link {
+        i {
+          color: #fff;
+          transition: 0.3s;
+        }
+      }
+    }
+
+    .nav-item:hover {
+      .nav-link {
+        i {
+          color: $color-grey;
+        }
+      }
+    }
+  }
+}
+// ===================
+// header area end ---
+// ===================
+// ===================
+// content area ------
+// ===================
+
+.content {
+  padding-bottom: 10rem;
+
+  h3 {
+    font-size: 3.474rem;
+    margin: 3rem 1rem;
+    background: $color-yellow;
+    border: none;
+    padding: 0.5rem 4rem;
+    transform: rotate(-5deg);
+    font-weight: 700;
+    color: $color-grey;
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 2.752rem;
+    margin-left: 1rem;
+  }
+
+  .right-side {
+    h2 {
+      font-size: 5.475rem;
+      color: $color-grey;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 2.4rem;
+      line-height: 3.4rem;
+    }
+
+    .btn-area {
+      margin-top: 7.5rem;
+    }
+  }
+}
+// ===================
+// content area end --
+// ===================
+
+.footer {
+  .navbar-brand {
+    font-size: 2.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .navbar-nav {
+    display: inline;
+
+    .nav-item {
+      display: inline-block;
+      margin-right: 3rem;
+
+      .nav-link {
+        font-size: 2.085rem;
+        color: $color-light;
+        transition: 0.5s;
+      }
+    }
+
+    .nav-item:hover {
+      display: inline-block;
+      margin-right: 3rem;
+
+      .nav-link {
+        font-size: 2.085rem;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .social {
+    .nav-item {
+      margin-left: 2rem;
+      .nav-link {
+        i {
+          color: $color-light;
+          transition: 0.8s;
+        }
+      }
+    }
+
+    .nav-item:hover {
+      .nav-link {
+        i {
+          color: #ffffff;
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+
+  .foot-text {
+    p {
+      color: #565b87;
+      font-size: 1.853rem;
+    }
+  }
+}
